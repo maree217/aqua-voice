@@ -1,0 +1,6 @@
+/Users/rammaree/projects/aqua-voice/venv/lib/python3.14/site-packages/deepgram/core/pydantic_utilities.py:13: UserWarning: Core Pydantic V1 functionality isn't compatible with Python 3.14 or greater.
+  from pydantic.v1.datetime_parse import parse_date as parse_date
+Traceback (most recent call last):
+  File "/Users/rammaree/Projects/aqua-voice/aqua_voice.py", line 24, in <module>
+    from deepgram import DeepgramClient, LiveTranscriptionEvents, LiveOptions
+ImportError: cannot import name 'LiveTranscriptionEvents' from 'deepgram' (/Users/rammaree/projects/aqua-voice/venv/lib/python3.14/site-packages/deepgram/__init__.py)
